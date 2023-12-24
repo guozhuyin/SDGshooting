@@ -234,15 +234,15 @@ public class ClassManagement : MonoBehaviour
             // result += pair.Key + ": " + pair.Value + "\n";
             if (pair.Key == "Trash")
             {
-                result += "<color=#FF0000>Trash </color>" + pair.Value + "\n";
+                result += "<color=#3F3B3A>Trash </color>" + pair.Value + "\n";
             }
             else if (pair.Key == "Plastic")
             {
-                result += "<color=#002060>Plastic </color>" + pair.Value + "\n";
+                result += "<color=#014DA1>Plastic </color>" + pair.Value + "\n";
             }
             else if (pair.Key == "Paper")
             {
-                result += "<color=#4472C4>Paper </color>" + pair.Value + "\n";
+                result += "<color=#1F7FB2>Paper </color>" + pair.Value + "\n";
             }
         }
 
